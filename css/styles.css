@@ -1,0 +1,88 @@
+*,
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+:root {
+    --primary-color: #04032b;
+    --active: #0A0EF3;
+    --light: rgb(248, 249, 250);
+    --global-gradient: linear-gradient(to right, var(--primary-color), var(--active));
+}
+
+
+nav {
+    background-color: var(--primary-color);
+    height: 100px;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.active {
+    color: var(--active) !important;
+}
+
+.nav-link:hover {
+    color: var(--active) !important;
+}
+
+#hero {
+    background-image: url(../images/bannerpic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    min-height: 100vh !important;
+    width: 100% !important;
+    text-align: center !important;
+}
+#hero-about {
+    background-image: url(../images/banner\ about2.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    min-height: 100vh !important;
+    width: 100% !important;
+    text-align: center !important;
+}
+
+#discover {
+    padding: 100px 0;
+}
+.bg-custom {
+    background: var(--global-gradient);
+}
+
+.bg-global{
+    background-image: url(../images/Home\ Banner.jpg);
+
+}
+.btn-custom {
+    border-radius: 20px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    font-weight: 300 !important;
+    height: auto !important;
+}
+
+.card {
+    width: 100% !important;
+    border-radius: 30px !important;
+}
+
+.card2 {
+    width: 100% !important;
+    border-radius: 30px !important;
+    background-color: transparent !important;
+}
+
+footer li {
+    display: inline !important;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+}
+
+footer li a {
+    border-radius: 50% !important;
+}
